@@ -15,7 +15,7 @@
 | | Game | Description | Controls |
 |---|------|-------------|----------|
 | 🟦 | **2048** | Slide and merge tiles until you reach 2048 | Arrow keys · Swipe |
-| 🐍 | **Snake** | Eat food, grow longer, don’t bite yourself | Arrow keys · WASD · Swipe |
+| 🐍 | **Snake** | Eat food, grow longer, don't bite yourself | Arrow keys · WASD · Swipe |
 | 🃏 | **Memory Match** | Flip emoji card pairs in the fewest moves | Click / Tap |
 | ➗ | **Math Sprint** | Rapid-fire arithmetic in 60 seconds | Number input · Enter |
 | ⭕ | **Tic-Tac-Toe** | Beat the CPU — Easy or unbeatable Hard (minimax) | Click / Tap |
@@ -25,8 +25,8 @@
 
 ## 🏆 Scoring
 
-| Game | What’s Tracked | Best Score Saved |
-|------|---------------|------------------|
+| Game | What's Tracked | Best Score Saved |
+|------|----------------|------------------|
 | 2048 | Merge score (sum of merged tiles) | Highest score |
 | Snake | Food eaten | Highest count |
 | Memory Match | Moves to complete the board | Fewest moves |
@@ -67,38 +67,3 @@ All bests are saved to `localStorage` and shown on the hub card for each game.
 open index.html          # macOS
 start index.html         # Windows
 xdg-open index.html      # Linux
-```
-
-Or drag `index.html` into any modern browser tab.
-
----
-
-## 🛠️ Built With
-
-| Technology | Usage |
-|------------|-------|
-| HTML5 Canvas | Snake, Breakout rendering |
-| CSS Grid + custom properties | Hub layout, 2048 board, Memory grid |
-| CSS 3D transforms | Memory card flip animation |
-| Vanilla JS | All game logic, minimax AI, localStorage |
-| Web Audio API | *(not used — no audio assets required)* |
-
----
-
-## 📝 Roadmap / Ideas
-
-- [ ] Sound effects via Web Audio API (blip on score, crunch on collision)
-- [ ] Animated tile transitions for 2048
-- [ ] High-score leaderboard with initials (localStorage)
-- [ ] Color-blind friendly theme toggle
-- [ ] More games: Tetris, Wordle, Minesweeper
-
-PRs and suggestions welcome!
-
----
-
-<p align="center">
-  Made with ❤️ &nbsp;·&nbsp;
-  <a href="https://github.com/infrabeam1927/COOL-MATH-GAMES">View on GitHub</a> &nbsp;·&nbsp;
-  <a href="https://infrabeam1927.github.io/COOL-MATH-GAMES/">Play Live</a>
-</p>
